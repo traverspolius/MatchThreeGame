@@ -121,60 +121,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &240238162
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 240238163}
-  - component: {fileID: 240238164}
-  m_Layer: 0
-  m_Name: Board
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &240238163
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 240238162}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &240238164
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 240238162}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9fa5fefe82b35924a8080ee2417e451f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  width: 7
-  height: 9
-  borderSize: 2
-  tilePrefab: {fileID: 3839747989546059732, guid: d7fc2011b48e10a48a7a9a61643010e7,
-    type: 3}
-  gamePiecePrefabs:
-  - {fileID: 4596031648261364541, guid: e759bf84bd593d3499a9110231232913, type: 3}
-  - {fileID: 4218495837354030693, guid: 62f1c455a3351d447be7529ca84e21e0, type: 3}
-  - {fileID: 1989178642574445008, guid: 858cfcb48a33a5342938850a0e692bdf, type: 3}
-  - {fileID: 8225470821712421754, guid: d71b8dd263c28a54db7edf414663be4c, type: 3}
-  - {fileID: 6470147771755927563, guid: 87b8be954bc316d4887551049fcbb026, type: 3}
 --- !u!1 &412334471
 GameObject:
   m_ObjectHideFlags: 0
@@ -262,6 +208,61 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1208898679
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1208898681}
+  - component: {fileID: 1208898680}
+  m_Layer: 0
+  m_Name: Board
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1208898680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1208898679}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fa5fefe82b35924a8080ee2417e451f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  width: 7
+  height: 9
+  borderSize: 2
+  tilePrefab: {fileID: 3839747989546059732, guid: d7fc2011b48e10a48a7a9a61643010e7,
+    type: 3}
+  gamePiecePrefabs:
+  - {fileID: 8225470821712421754, guid: d71b8dd263c28a54db7edf414663be4c, type: 3}
+  - {fileID: 6470147771755927563, guid: 87b8be954bc316d4887551049fcbb026, type: 3}
+  - {fileID: 1989178642574445008, guid: 858cfcb48a33a5342938850a0e692bdf, type: 3}
+  - {fileID: 4218495837354030693, guid: 62f1c455a3351d447be7529ca84e21e0, type: 3}
+  - {fileID: 4596031648261364541, guid: e759bf84bd593d3499a9110231232913, type: 3}
+  swapTime: 0.5
+--- !u!4 &1208898681
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1208898679}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1243826922
 GameObject:
   m_ObjectHideFlags: 0
@@ -313,7 +314,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_FirstSelected: {fileID: 0}
   m_sendNavigationEvents: 1
-  m_DragThreshold: 10
+  m_DragThreshold: 5
 --- !u!4 &1243826925
 Transform:
   m_ObjectHideFlags: 0
